@@ -1,0 +1,15 @@
+.component {
+  border: 1px solid black;
+
+  @media (min-width: 501px) and (max-width: 800px) {
+    border: 1px solid red;
+  }
+
+  @media (min-width: 801px) and (max-width: 1280px) {
+    border: 1px solid blue;
+  }
+
+  @media (min-width: 1281px) {
+    border: 1px solid green;
+  }
+}
